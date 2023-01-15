@@ -15,7 +15,7 @@
 </br>
 
 ## :pencil: Descrição do Projeto
-O projeto **[Alurinha](https://nayarawatanuki.github.io/html5-css3-II__alurinha/)**, é uma proposta de página web para apresentação pessoal (portifolios, curriculos e afins).
+O projeto **[Alurinha](https://nayarawatanuki.github.io/html5-css3-II__alurinha/)**, é uma proposta de página web para apresentação pessoal (portfolios, curriculos e afins).
 
 </br>Desenvolvido para o curso de **HTML5 E CSS3 II: TURBINANDO AS SUAS PÁGINAS** da platforma [Alura](https://www.alura.com.br/).
 
