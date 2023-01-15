@@ -1,0 +1,91 @@
+@keyframes bouncing {
+    from {
+        top: 0;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
+    }
+    to {
+        top: 1em;
+    }
+}
+
+@-webkit-keyframes bouncing {
+    from {
+        top: 0;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    95% {
+        transform: rotate(2deg);
+    }
+    to {
+        top: 1em;
+    }
+}
+
+.quote {
+    animation: bouncing 1s infinite;
+    -webkit-animation: bouncing 1s infinite;
+
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+
+    background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    box-sizing: border-box;
+    margin: 1em 2em;
+    padding: 1em;
+    position: relative;
+    transition: box-shadow 1s linear, transform 1s ease-in;
+    transition-delay: 1s, 0s;
+    width: 30ch;
+}
+
+.quote::before {
+    color: #bbb;
+    content: '“';
+    font-size: 10em;
+    line-height: .8;
+    position: absolute;
+}
+
+.quote > p {
+    position: relative;
+}
+
+.quote:hover, 
+.quote:focus {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    transition-delay: 0s, 1s;
+}
+
+.quote:nth-of-type(odd):hover,
+.quote:nth-of-type(odd):focus {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.quote:nth-of-type(even):hover,
+.quote:nth-of-type(even):focus {
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.quote:nth-of-type(even) {
+    float: left;
+    margin-left: 0;
+}
+
+.quote:nth-of-type(odd) {
+    float: right;
+    margin-right: 0;
+}

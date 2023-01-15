@@ -1,0 +1,90 @@
+.author-photo,
+.menu {
+    border-left: .5em solid black;
+    box-sizing: border-box;
+    width: calc(0.9 * 300px);
+}
+
+.author-photo {
+    border-bottom: .5em solid black;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu {
+    /* float: right;
+    position: relative;
+    top: 300px; */
+
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1em;
+    padding-top: calc(300px + 1em);
+    text-align: center;
+}
+
+.menu a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
+}
+
+.menu a:hover,
+.menu a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
+.menu h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.icons-social-networks li {
+    display: inline-block;
+}
+
+.icons-social-networks a {
+    display: block;
+    height: 40px;
+    position: relative;
+    text-indent: -99999px;
+    width: 40px;
+}
+
+.icons-social-networks a:hover::before,
+.icons-social-networks a:focus::before {
+    background-color: black;
+    bottom: 0;
+    content: '';
+    height: 1em;
+    left: 0;
+    position: absolute;
+    transform: translateY(.5em) rotate(45deg);
+    width: 1em;
+}
+
+.icons-social-networks a:hover::after,
+.icons-social-networks a:focus::after {
+    background: black;
+    content: attr(data-tooltip);
+    font-size: .75em;
+    position: absolute;
+    right: 0;
+    text-indent: 0;
+    top: 100%;
+    width: 300%;
+}
+
+.github {
+    background-image: url(../../../img/github.png);
+}
+
+.twitter {
+    background-image: url(../../../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../../../img/linkedin.png);
+}

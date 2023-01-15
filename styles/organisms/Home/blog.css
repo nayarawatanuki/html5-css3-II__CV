@@ -1,0 +1,54 @@
+.blog {
+    background-attachment: fixed;
+    background-color: #999;
+    background-image: linear-gradient(45deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(255, 255, 255, 0.1) 14px,
+                        rgba(255, 255, 255, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    border-bottom: .5em solid #851944;
+    color: #FFF;
+    position: relative;
+}
+
+.blog small {
+    position: relative;
+    top: -2em;
+}
+
+.blog li {
+    width: 30%;
+}
+
+.blog li a {
+    color: #FCF;
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.blog .post {
+    background-color: #F2FFFC;
+    color: #000;
+    display: none;
+    height: 10em;
+    left: 30%;
+    padding: 1.5em;
+    position: absolute;
+    right: 4em;
+    top: 4em;
+}
+
+.latest a:hover,
+.latest a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+    text-decoration: underline;
+}
+
+.latest a:hover + .post {
+    display: block;
+}

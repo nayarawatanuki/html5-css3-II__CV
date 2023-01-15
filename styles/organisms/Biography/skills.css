@@ -1,0 +1,35 @@
+.skills {
+    border-collapse: separate;
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+
+.skills th {
+    background-color: #851944;
+    color: white;
+    font-weight: bold;
+}
+
+.skills thead th {
+    /* não precisamos colocar font-weight e color
+    pois já fizemos isso para todos os th */
+    background-color: #3C1D3D;
+}
+
+.skills td {
+    background-color: #eee;
+}
+
+.skills th,
+.skills td {
+    padding: 1em;
+}
+
+.skills [rowspan] {
+    vertical-align: middle;
+}
+
+.skills [colspan] {
+    font-style: italic;
+    text-align: center;
+}

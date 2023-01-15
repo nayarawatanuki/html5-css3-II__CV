@@ -1,0 +1,168 @@
+@keyframes show {
+    /* podemos usar a palavra-chave "from" também no lugar de 0% */
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+
+@-webkit-keyframes show {
+    /* podemos usar a palavra-chave "from" também no lugar de 0% */
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+
+.header, .title-h1 {
+    position: relative;
+}
+
+.home-photo {
+    border-radius: 50%;
+    box-shadow: 0 0 1em #000;
+    height: 200px;
+}
+
+.home-words, .title-h1 {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.home-words {
+    bottom: 0;
+    left: 0;
+    perspective: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.home-word {
+    animation: show 2s;
+    -webkit-animation: show 2s;
+    
+    /* color: #D5447E; */
+    color: rgba(255, 127, 127, .5);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 400%;
+    font-weight: bold;
+    position: absolute;
+}
+
+.efficiency {
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+}
+
+.good-habits {
+    left: 20%;
+    opacity: .3;
+    top: 70%;
+    transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+}
+
+.clean-code {
+    left: 25%;
+    opacity: .6;
+    top: 45%;
+    transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+}
+
+.css3 {
+    left: 35%;
+    opacity: .6;
+    top: 55%;
+    transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+}
+
+.html5 {
+    left: 65%;
+    opacity: .6;
+    top: 30%;
+    transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+}
+
+.javascript {
+    left: 60%;
+    top: 15%;
+    transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+}
+
+.acessibility {
+    left: 35%;
+    opacity: .8;
+    top: 30%;
+    transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+}
+
+.responsive {
+    left: 40%;
+    opacity: .8;
+    top: 40%;
+    transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+}
+
+.optimizations {
+    left: 65%;
+    opacity: .6;
+    top: 70%;
+    transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+}
+
+.agility {
+    left: 35%;
+    opacity: .3;
+    top: 75%;
+    transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+}
+
+.design {
+    left: 60%;
+    opacity: .6;
+    top: 40%;
+    transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+}
+
+.banner-twitter {
+    animation: show .5s;
+    -webkit-animation: show .5s;
+    
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    
+    animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards;
+    
+    background-color: #3C1D3D;
+    border: .25em solid black;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.2em;
+    line-height: 1;
+    padding: 1em 3em;
+    position: absolute;
+    right: 3em;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+    
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;    
+}

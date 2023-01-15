@@ -1,0 +1,60 @@
+@keyframes float {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+@-webkit-keyframes float {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+.salutation p {
+    color: #99A;
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 2em;
+}
+
+.salutation strong {
+    color: #000;
+    font-size: 2em;
+}
+
+.salutation em {
+    animation: float 1s infinite;
+    -webkit-animation: float 1s infinite;
+    
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    
+    color: #851944;
+    display: inline-block;
+    font-size: 4em;
+    position: relative;
+    transform:  rotate(-5deg) skew(-10deg);
+}
+
+.salutation em:hover {
+    animation-play-state: paused;
+}
+
+.salutation-hello {
+    color: #889;
+    font-size: 3em;
+}
+
+.salutation-last-line {
+    display: block;
+    text-align: right;
+}
