@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Alurinha" src="https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__alurinha/main/img/readme/alurinha__cover.png"/>
+  <img alt="Capa da página de apresentação" src="https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__CV/main/img/readme/CV__cover.png"/>
 </h1>
 
 ### Índice
@@ -15,7 +15,7 @@
 </br>
 
 ## :pencil: Descrição do Projeto
-O projeto **[Alurinha](https://nayarawatanuki.github.io/html5-css3-II__alurinha/)**, é uma proposta de página web para apresentação pessoal (portfolios, curriculos e afins).
+O projeto **[CV](https://nayarawatanuki.github.io/html5-css3-II__CV/)**, é uma proposta de página web para apresentação comercial (portfolios, curriculos e afins).
 
 </br>Desenvolvido para o curso de **HTML5 E CSS3 II: TURBINANDO AS SUAS PÁGINAS** da platforma [Alura](https://www.alura.com.br/).
 
@@ -62,8 +62,8 @@ Foi aprendido e utilizado:
 </br>
 
 ## :open_file_folder: Acesso ao projeto
-Você pode acessar o [código fonte do projeto](https://github.com/nayarawatanuki/html5-css3-II__alurinha) ou 
-[baixá-lo](https://github.com/nayarawatanuki/html5-css3-II__alurinha/archive/refs/heads/main.zip).
+Você pode acessar o [código fonte do projeto](https://github.com/nayarawatanuki/html5-css3-II__CV) ou 
+[baixá-lo](https://github.com/nayarawatanuki/html5-css3-II__CV/archive/refs/heads/main.zip).
 
 Caso obte por baixá-lo: 
 Após baixar o projeto, você pode abrir com o VS Code. Para isso, abra o explorer (primeiro icone no menu) clique em:
@@ -74,9 +74,9 @@ Após baixar o projeto, você pode abrir com o VS Code. Para isso, abra o explor
 </br>
 
 ## :rocket: Abrir e rodar o projeto
-Caso tenha interesse em visualizar o que foi realizado: [Alurinha](https://nayarawatanuki.github.io/html5-css3-II__alurinha/) 
+Caso tenha interesse em visualizar o que foi realizado: [CV](https://nayarawatanuki.github.io/html5-css3-II__CV/) 
 
-Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/html5-css3-II__alurinha/archive/refs/heads/main.zip).
+Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/html5-css3-II__CV/archive/refs/heads/main.zip).
 
 > Após baixar o projeto, abra a pasta do projeto (Caso o projeto seja baixado em zip, é necessário extraí-lo antes de abrir), então clique no:
 > - Aqruivo **``index.html``**
@@ -85,7 +85,7 @@ Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/htm
 </br>
 
 ## :keyboard: Tecnologias utilizadas
-![HTML + CSS](https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__alurinha/main/img/readme/html-css.PNG)</br>
+![HTML + CSS](https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__CV/main/img/readme/html-css.PNG)</br>
 
 </br>
 
