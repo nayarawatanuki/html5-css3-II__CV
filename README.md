@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Capa da página de apresentação" src="https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__CV/main/img/readme/CV__cover.png"/>
+  <img alt="Capa da página de apresentação" src="https://raw.githubusercontent.com/nayarawatanuki/html5-css3-II__CV/main/img/readme/CV__cover.png#vitrinedev"/>
 </h1>
 
 ### Índice
@@ -17,7 +17,7 @@
 ## :pencil: Descrição do Projeto
 O projeto **[CV](https://nayarawatanuki.github.io/html5-css3-II__CV/)**, é uma proposta de página web para apresentação comercial (portfolios, curriculos e afins).
 
-</br>Desenvolvido para o curso de **HTML5 E CSS3 II: TURBINANDO AS SUAS PÁGINAS** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **HTML5 E CSS3 II: TURBINANDO AS SUAS PÁGINAS** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
